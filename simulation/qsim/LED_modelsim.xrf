@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/intelFPGA_lite/20.1/LED/LED.vhd
+source_file = 1, C:/intelFPGA_lite/20.1/LED/Waveform.vwf
+source_file = 1, C:/intelFPGA_lite/20.1/LED/Waveform1.vwf
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/intelFPGA_lite/20.1/LED/db/LED.cbx.xml
+design_name = hard_block
+design_name = LED
+instance = comp, \s_led~output\, s_led~output, LED, 1
+instance = comp, \bot~input\, bot~input, LED, 1
+instance = comp, \estado~0\, estado~0, LED, 1

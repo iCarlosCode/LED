@@ -1,0 +1,5 @@
+|LED
+bot => estado.CLK
+s_led <= estado.DB_MAX_OUTPUT_PORT_TYPE
+
+

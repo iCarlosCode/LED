@@ -1,0 +1,94 @@
+$comment
+	File created using the following command:
+		vcd file LED.msim.vcd -direction
+$end
+$date
+	Wed Sep 20 21:44:45 2023
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module led_vhd_vec_tst $end
+$var wire 1 ! bot $end
+$var wire 1 " s_led $end
+
+$scope module i1 $end
+$var wire 1 # gnd $end
+$var wire 1 $ vcc $end
+$var wire 1 % unknown $end
+$var wire 1 & devoe $end
+$var wire 1 ' devclrn $end
+$var wire 1 ( devpor $end
+$var wire 1 ) ww_devoe $end
+$var wire 1 * ww_devclrn $end
+$var wire 1 + ww_devpor $end
+$var wire 1 , ww_bot $end
+$var wire 1 - ww_s_led $end
+$var wire 1 . \s_led~output_o\ $end
+$var wire 1 / \bot~input_o\ $end
+$var wire 1 0 \estado~0_combout\ $end
+$var wire 1 1 \ALT_INV_estado~0_combout\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+x"
+0#
+1$
+x%
+1&
+1'
+1(
+1)
+1*
+1+
+0,
+x-
+x.
+0/
+x0
+x1
+$end
+#100000
+1!
+1,
+1/
+#200000
+0!
+0,
+0/
+#300000
+1!
+1,
+1/
+#400000
+0!
+0,
+0/
+#500000
+1!
+1,
+1/
+#600000
+0!
+0,
+0/
+#700000
+1!
+1,
+1/
+#800000
+0!
+0,
+0/
+#900000
+1!
+1,
+1/
+#1000000
